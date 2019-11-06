@@ -7,38 +7,39 @@
  * and Michelle Claire Currier of m. currier designs
  */
 @font-face {
-  font-family: "Copperplate";
-  src: url('OPTICopperplate.otf');
+  font-family: "Zulia";
+  src: url('ZuliaPro.otf');
 }
 html {
-  font-family: 'Work Sans', sans-serif;
-  background: #EEE9E2;
+  font-family: 'Nunito', sans-serif;
+  background: #1D0F2A;
+  color: #B7E4E8;
 }
 h1 {
   font-size: 3rem;
+  color: #E93F80;
 }
 h2 {
   font-size: 2.8rem;
+  color: #F5A841;
 }
 h3 {
   font-size: 2.4rem;
+  color: #4BA657;
 }
 h1, h2, h3, h4{
-  font-family: 'Copperplate', serif;
+  font-family: 'Zulia', cursive;
 }
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #E93F80;
 }
-
 p {
   line-height: 2rem;
 }
-
 .sidenav-trigger {
   color: #26a69a;
 }
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -59,35 +60,24 @@ p {
   text-shadow: none;
 }
 .brand-logo {
-  background: url('../vsp-logo.jpg') no-repeat;
-  width: 136px;
-  height: 60px;
-  margin-top: 2px;
+  height: 180px;
+  background: url('../Costumegasm-Logo_Full.png') no-repeat;
+  width: 420px;
   background-size: contain;
-}
-.logo {
-  background: url('../costumegasmcard.jpg') no-repeat;
-  width: 136px;
-  height: 67px !important;
-  background-size: contain;
-}
-.olive {
-  background-color: #7d7b4b;
-}
-.olive-text, nav ul a:hover, .page-footer ul li a:hover {
-  color: #7d7b4b !important;
-}
-.wine {
-  background-color: #502d63;
-}
-.wine-text {
-  color: #502d63 !important;
+  margin-top: 3px;
+  position: relative;
+  z-index: 10;
 }
 .btn:hover, .btn-large:hover, .btn-small:hover {
   background-color: #725481;
 }
+/* nav */
 nav ul a:hover {
   background-color: #F5F0EC;
+}
+nav ul li a {
+  font-size: 1.8rem;
+  font-family: 'Zulia', cursive;
 }
 i.big {
   font-size: 4rem;
@@ -96,7 +86,63 @@ i.big {
   margin-right: -1.5rem !important;
   margin-left: -1.5rem !important;
 }
-
+hr {
+  border: 2px dashed #725481;
+}
+.page-footer {
+  background: #3BBFAB;
+  border-top: 2px dashed #1D0F2A;
+}
+/* forms */
+.select-wrapper input.select-dropdown {
+  border-bottom: 1px solid #E93F80;
+}
+select, .input-field > label, .select-dropdown {
+  color: #B7E4E8;
+}
+.select-wrapper .caret {
+  fill: #E93F80;
+}
+ul.dropdown-content.select-dropdown li span {
+  color: #3BBFAB;
+}
+/*colors*/
+.purp {
+  background: #5C57A7;
+}
+.purp-text {
+  color: #5C57A7;
+}
+.bluu {
+  background: #169ED6;
+}
+.bluu-text {
+  color: #169ED6;
+}
+.pynk {
+  background: #E93F80;
+}
+.pynk-text {
+  color: #E93F80;
+}
+.gree {
+  background: #3BBFAB;
+}
+.gree-text {
+  color: #3BBFAB;
+}
+.gold {
+  background: #F5A841;
+}
+.gold-text {
+  color: #F5A841;
+}
+.dark {
+  background: #1D0F2A;
+}
+.dark-text {
+  color: #1D0F2A;
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -104,10 +150,6 @@ i.big {
   }
   #index-banner .section {
     top: 10%;
-  }
-  .brand-logo {
-    height: 52px;
-    margin-top: 1px;
   }
   h1 {
     font-size: 1.8rem;
@@ -119,7 +161,12 @@ i.big {
     font-size: 1.4rem;
   }
 }
-
+@media only screen and (min-width: 601px) {
+  nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: 94px;
+    line-height: 94px;
+  }
+}
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
