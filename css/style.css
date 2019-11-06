@@ -93,6 +93,9 @@ hr {
   background: #3BBFAB;
   border-top: 2px dashed #1D0F2A;
 }
+.page-footer li i {
+  font-size: 1.6rem;
+}
 /* forms */
 .select-wrapper input.select-dropdown {
   border-bottom: 1px solid #E93F80;
