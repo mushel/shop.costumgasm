@@ -14,17 +14,24 @@ html {
   font-family: 'Nunito', sans-serif;
   background: #1D0F2A;
   color: #B7E4E8;
+  height: 100%;
+}
+body {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 h1 {
-  font-size: 3rem;
   color: #E93F80;
 }
 h2 {
-  font-size: 2.8rem;
   color: #F5A841;
 }
 h3 {
-  font-size: 2.4rem;
   color: #4BA657;
 }
 h1, h2, h3, h4{
@@ -40,24 +47,8 @@ p {
 .sidenav-trigger {
   color: #26a69a;
 }
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-  text-shadow: 0px 0px 4px #000000;
-}
-.parallax-container .section {
-  width: 100%;
-}
-.parallax-container h3 {
-  background: rgba(255, 255, 255, 0.65);
-  padding: 10px 10px 15px 10px;
-  text-shadow: none;
-  color: #7d7b4b !important;
-}
-.parallax-container .btn-large {
-  text-shadow: none;
+.carousel {
+  max-height: 800px; /* make all the images the same damn height*/
 }
 .brand-logo {
   height: 180px;
@@ -72,6 +63,9 @@ p {
   background-color: #725481;
 }
 /* nav */
+.nav-wrapper {
+  padding-left: 5px;
+}
 nav ul a:hover {
   background-color: #F5F0EC;
 }
@@ -100,7 +94,7 @@ hr {
 .select-wrapper input.select-dropdown {
   border-bottom: 1px solid #E93F80;
 }
-select, .input-field > label, .select-dropdown {
+select, .input-field > label, .select-dropdown, html input, textarea {
   color: #B7E4E8;
 }
 .select-wrapper .caret {
@@ -110,6 +104,9 @@ ul.dropdown-content.select-dropdown li span {
   color: #3BBFAB;
 }
 /*colors*/
+.text-shadow {
+  text-shadow: 0px 0px 4px #1D0F2A;
+}
 .purp {
   background: #5C57A7;
 }
@@ -154,28 +151,24 @@ ul.dropdown-content.select-dropdown li span {
   #index-banner .section {
     top: 10%;
   }
-  h1 {
-    font-size: 1.8rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h5 {
-    font-size: 1.4rem;
-  }
 }
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
     height: 94px;
     line-height: 94px;
   }
-}
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
+  .container {
+    width: 95%;
   }
 }
-
+@media only screen and (max-width : 600px) {
+  
+}
+@media only screen and (max-width: 992px){
+  nav .brand-logo {
+    width: 200px;
+  }
+}
 .icon-block {
   padding: 0 15px;
 }
