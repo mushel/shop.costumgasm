@@ -96,7 +96,7 @@
         <div class="col s6 m3 l2">
             <img src="img/green-black.jpeg" class="responsive-img">
             <h5>Green Black</h5>     
-        </div>
+        </div>s
     </div>
 </div>
 <?php include('includes/footer.php'); ?>
