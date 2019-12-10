@@ -148,8 +148,21 @@ ul.dropdown-content.select-dropdown li span {
 .dark-text {
   color: #1D0F2A;
 }
+li.social {
+  display: inline-block;
+  margin-right: 12px;
+}
 img.responsive-img {
   border-radius: 3px;
+}
+.fabrics h5 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.card .card-image .card-title {
+  text-shadow: 0px 0px 3px #fff;
+  color: #1D0F2A;
+  padding: 8px;
 }
 @media only screen and (max-width : 992px) {
   .parallax-container .section {

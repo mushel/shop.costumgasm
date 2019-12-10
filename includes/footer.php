@@ -19,9 +19,11 @@
         <div class="col l3 m7 s12">
         <h5 class="white-text">Follow Costumegasm</h5>
           <ul>
-            <li><a href="https://www.facebook.com/costumegasm/" title="Costumegasm on Facebook" target="_blank"><i class="fab fa-facebook-square"></i><a></li>
-            <li><a href="https://www.instagram.com/costumegasm/" title="Costumegasm on Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://twitter.com/costumegasm?lang=en" title="Costumegasm on Twitter" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            <li class="social"><a href="https://www.facebook.com/costumegasm/" title="Costumegasm on Facebook" target="_blank"><i class="fab fa-facebook-square"></i><a></li>
+            <li class="social"><a href="https://www.instagram.com/costumegasm/" title="Costumegasm on Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li class="social"><a href="https://twitter.com/costumegasm?lang=en" title="Costumegasm on Twitter" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li class="social"><a href="https://www.patreon.com/join/Costumegasm" title="Costumegasm on Patreon" target="_blank"><img src="img/patreon.png"></a></li>
+            <li><br></li>
             <li>Made in Queens, New York</li>
             <li>123.456.7890</li>
           </ul>
