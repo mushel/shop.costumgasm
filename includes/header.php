@@ -23,6 +23,7 @@
         <li><a href="tails.php">Mermaid Tails</a></li>
         <li><a href="coats.php">Playa Coats</a></li>
         <li><a href="pasties.php">Pasties</a></li>
+        <li><a href="fabrics.php">Fabrics</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
@@ -31,6 +32,7 @@
         <li><a href="tails.php">Mermaid Tails</a></li>
         <li><a href="coats.php">Playa Coats</a></li>
         <li><a href="pasties.php">Pasties</a></li>
+        <li><a href="fabrics.php">Fabrics</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>

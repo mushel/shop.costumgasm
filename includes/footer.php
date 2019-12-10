@@ -45,9 +45,17 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <script type="text/javascript" src="js/jquery.lazy.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lazy.min.js"></script>  
   <script>
-
+    $('.lazy').Lazy({
+        // your configuration goes here
+        scrollDirection: 'vertical',
+        effect: 'fadeIn',
+        visibleOnly: true,
+        onError: function(element) {
+            console.log('error loading ' + element.data('src'));
+        }
+    });
     $('.carousel.carousel-slider').carousel({
         fullWidth: true
     });
@@ -66,9 +74,7 @@
         $('.datepicker').datepicker();
     });
 
-    $(function() {
-        $('.lazy').Lazy();
-    });
+    
          
     </script>
   

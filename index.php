@@ -1,7 +1,7 @@
 <?php include('includes/header.php'); ?>
 
     <div class="carousel carousel-slider">
-        <a class="carousel-item lazy" href="#one!"><img src="img/mermaid7.jpg"></a>
+        <a class="carousel-item" href="#one!"><img class="lazy" src="img/mermaid7.jpg"></a>
         <a class="carousel-item lazy" href="#two!"><img src="img/mermaid2.jpg"></a>
         <a class="carousel-item lazy" href="#three!"><img src="img/mermaid5.jpg"></a>
         <a class="carousel-item lazy" href="#four!"><img src="img/costumegasmcard.jpg"></a>
